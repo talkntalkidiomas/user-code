@@ -1,0 +1,23 @@
+----- CLI crash report at 2024-05-25T15:35:54.600Z
+Error Trace
+FailedToReadJson: FailedToReadJson
+    at mf (/home/marciely/.nvm/versions/node/v20.12.2/lib/node_modules/@wix/cli-fs/src/index.ts:38:11)
+    at g (/home/marciely/.nvm/versions/node/v20.12.2/lib/node_modules/@wix/cli-site/src/files/velo.config.ts:18:22)
+    at h (/home/marciely/.nvm/versions/node/v20.12.2/lib/node_modules/@wix/cli-site/src/model.ts:13:18)
+    at s (/home/marciely/.nvm/versions/node/v20.12.2/lib/node_modules/@wix/cli-site/src/commands/run-command.ts:8:26)
+    at w (/home/marciely/.nvm/versions/node/v20.12.2/lib/node_modules/@wix/cli-site/src/commands/run-command.ts:25:3)
+    at o.<anonymous> (/home/marciely/.nvm/versions/node/v20.12.2/lib/node_modules/@wix/cli-site/src/commands/dev.ts:21:7)
+    at o.parseAsync (/home/marciely/.nvm/versions/node/v20.12.2/lib/node_modules/node_modules/commander/lib/command.js:1015:5)
+    at <anonymous> (/home/marciely/.nvm/versions/node/v20.12.2/lib/node_modules/@wix/cli/src/index.ts:66:3)
+caused by: Error
+    at Z (/home/marciely/.nvm/versions/node/v20.12.2/lib/node_modules/@wix/cli-error/src/cli-error.ts:20:11)
+    at mf (/home/marciely/.nvm/versions/node/v20.12.2/lib/node_modules/@wix/cli-fs/src/index.ts:38:11)
+    at g (/home/marciely/.nvm/versions/node/v20.12.2/lib/node_modules/@wix/cli-site/src/files/velo.config.ts:18:22)
+    at h (/home/marciely/.nvm/versions/node/v20.12.2/lib/node_modules/@wix/cli-site/src/model.ts:13:18)
+    at s (/home/marciely/.nvm/versions/node/v20.12.2/lib/node_modules/@wix/cli-site/src/commands/run-command.ts:8:26)
+    at w (/home/marciely/.nvm/versions/node/v20.12.2/lib/node_modules/@wix/cli-site/src/commands/run-command.ts:25:3)
+    at o.<anonymous> (/home/marciely/.nvm/versions/node/v20.12.2/lib/node_modules/@wix/cli-site/src/commands/dev.ts:21:7)
+    at o.parseAsync (/home/marciely/.nvm/versions/node/v20.12.2/lib/node_modules/node_modules/commander/lib/command.js:1015:5)
+    at <anonymous> (/home/marciely/.nvm/versions/node/v20.12.2/lib/node_modules/@wix/cli/src/index.ts:66:3)
+Error Info
+{}
